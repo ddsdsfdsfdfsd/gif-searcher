@@ -1,0 +1,46 @@
+@media(max-width:1200px) {
+    .col-4 {
+        width: 33.3333%;
+    }
+}
+
+@media(max-width:1024px) {}
+
+@media(max-width:922px) {
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:576px) {
+    .container{
+        width: 90%;
+    }
+
+    #output{
+        margin: 0;
+    }
+    
+    .row input{
+        width: 45%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+    .row button{
+        font-size: 12px;
+        padding: 13px 18px;
+    }
+
+}
+
+@media(max-width:390px) {
+    #output{
+        padding: 25px 10px;
+    }
+    
+    
+}
